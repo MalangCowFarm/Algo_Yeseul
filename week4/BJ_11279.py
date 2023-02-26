@@ -15,4 +15,6 @@ for _ in range(N):
     else:
         heapq.heappush(heap,(-1)*data)
 
+while heap:
+    print(heappop(heap)[1])
 
