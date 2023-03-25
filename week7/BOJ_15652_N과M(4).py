@@ -7,10 +7,9 @@ def dfs(S):
         print(*lst)
         return
     else:
-        lst.append(S)
         for i in range(S, N + 1):
             lst.append(i)
-            dfs(i + 1)
+            dfs(i)
             lst.pop()
 dfs(1)
 print()
