@@ -29,7 +29,7 @@ time.sort(key=lambda x: (x[1], x[0]))
 cnt = 1
 now = time[0]
 for i in range(1, N):           # 0번째 요소는 이미 count 했으니 1번부터 범위 설정
-                                # 회의가 시작과 동시에 끝나는 경우, cnt += 1 됌
+                                # 회의가 시작과 동시에 끝나는 경우, cnt += 1 되기 때문에
     if time[i][0] >= now[1]:
         now = time[i]
         cnt += 1
