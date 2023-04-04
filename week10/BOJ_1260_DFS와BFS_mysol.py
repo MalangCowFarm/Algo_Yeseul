@@ -1,4 +1,4 @@
-# bfs는 대웅쓰 막혀서 풀이 참고, dfs 는 나 혼자 품!!!
+# bfs는 막혀서 대웅쓰 풀이 참고, dfs 는 나 혼자 품!!!
 
 from collections import deque
 
