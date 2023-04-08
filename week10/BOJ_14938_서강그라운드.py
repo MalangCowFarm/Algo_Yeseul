@@ -20,8 +20,7 @@ for k in range(1, n + 1):
     for y in range(1, n + 1):
         for x in range(1, n + 1):
             local[y][x] = min(local[y][x], local[y][k] + local[k][x])
-for row in local:
-    print(row)
+
 ans = 0
 for y in range(1, n + 1):
     temp = 0
