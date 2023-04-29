@@ -15,7 +15,7 @@ for _ in range(N):
     # else:
     #     e = 1320
     time.append([s, e])
-time.sort(key=lambda x: (x[0], x[1]))
+time.sort()
 time.append([1330, 1330])
 
 end_time = 590
