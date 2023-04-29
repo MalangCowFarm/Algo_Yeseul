@@ -43,5 +43,6 @@ if bool(Y) == False and bool(X) == False:
 
 else:
     for y in range(min(Y), max(Y)+1):
-        print(*map[y][min(X):max(X)+1])
+        for x in range(min(X), max(X)+1):
+            print(*map[y][x], end='')
         print()
