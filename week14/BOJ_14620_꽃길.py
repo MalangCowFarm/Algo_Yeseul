@@ -10,7 +10,8 @@ def check(i, j, visited):
 
 def dfs(visited, total):
     global answer
-    if total >= answer:return
+    if total >= answer:
+        return
     if len(visited) == 15:
         answer = min(answer, total)
     else:
